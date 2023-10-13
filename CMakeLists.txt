@@ -3,13 +3,18 @@ project(lingua_mechanica_kinematics_msgs)
 
 set(MSG_DEPS
   moveit_msgs
-  )
+  actionlib_msgs
+  sensor_msgs
+  geometry_msgs
+  trajectory_msgs
+  shape_msgs
+  std_msgs)
 
 find_package(catkin REQUIRED COMPONENTS message_generation ${MSG_DEPS})
 
-set(MSG_FILES
-  RobotStates.msg
-)
+#set(MSG_FILES
+#  RobotState.msg
+#)
 
 set(SRV_FILES
   GetPositionIK.srv

@@ -7,6 +7,12 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <depend>message_generation</depend>
+  <depend>actionlib_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>shape_msgs</depend>
+  <depend>std_msgs</depend>
   <depend>moveit_msgs</depend>
   
 
