@@ -1,0 +1,20 @@
+<package format="2">
+  <name>lingua_mechanica_kinematics_msgs</name>
+  <version>0.0.1</version>
+  <description>Messages, services and actions used by Lingua Mechanica</description>
+  <maintainer email="pau.carre@gmail.com">Pau Carre Cardona</maintainer>
+  <license>MIT</license>  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>message_generation</depend>
+  <depend>actionlib_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>shape_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>moveit_msgs</depend>
+  
+
+  <exec_depend>message_runtime</exec_depend>
+</package>
